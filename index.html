@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h1 class="title"> <i class="fa-brands fa-slack"></i> Design Daily</h1>
+        </div>
+        <ul class="lists">
+            <li>Free design</li>
+            <li>License</li>
+            <li>Articles</li>
+            <li>Contributors</li>
+            <li>About</li>
+        </ul>
+        <div class="profile">
+            <i class="fa-regular fa-bell"><div class="notification" ></div></i>
+            
+            <img class="pro-img" src="./assets/myimage.jpg" alt="profile">
+            <button class="btn btn-solid upload-btn"><i class="fa-solid fa-upload"></i>  Upload</button>
+        </div>
+    </div>
+
+    <!-- body  -->
+    <div class="main">
+        <div class="left">
+            <h2>Setting</h2>
+            <p>Public profile</p>
+            <p>Account setting</p>
+            <p>Notification</p>
+            <p>PRO Account</p>
+        </div>
+        <!-- right side -->
+
+        <div class="form">
+            <h3>Public profile</h3>
+            <div class="pro">
+                <div class="pro-contener">
+                    <img src="./assets/myimage.jpg" class="profile-img" alt="">
+                </div>
+                <div class="pro-title">
+                    <button class="btn btn-solid">Change picture</button>
+                    <button class="btn btn-tras">Delete picture</button>
+                </div>
+
+            </div>
+            
+            <form action="/" class="form-content">
+                <div class="name">
+                    <div class="fname f-cl">
+                        <label for="fname">First name</label>
+                    <input type="text" id="fname">
+                    </div>
+                    <div class="lname f-cl">
+                        <label for="lname">Last name</label>
+                    <input type="text" id="lname" >
+                    </div>
+                </div>
+                <label for="location" class="location">Location</label>
+                <input type="text" id="location">
+                <label for="profession">Frofesssion</label>
+                <input type="text" id="profession">
+                <label for="bio">Bio</label>
+                <input type="text" id="bio" >
+            </form>
+        </div>
+    </div>
+</body>
+</html>
