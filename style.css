@@ -228,10 +228,17 @@ input{
     }
     .form{
         margin: 5%;
+        width: 100%;
         
     }
     .title{
         font-size: 1.5rem;
         font-weight: 800;
+    }
+    .form-content{
+        width: 100%;
+    }
+    label , input{
+        width: 100%;
     }
 }
