@@ -68,6 +68,7 @@ img{
     border-radius: .4rem;
     border: none;
     cursor: pointer;
+    min-width: 7rem;
    
     
 }
@@ -171,4 +172,65 @@ input{
     border: 1px solid var(--border-clr);
     padding-left:  .5rem ;
     font-size: 1.2rem ;
+}
+
+/* //responsive */
+
+@media screen and ( max-width: 950px) {
+    .nav{
+        width: 100%;
+    }
+    :is(.nav:hover, .nav:focus-within) .lists {
+        display: block;
+        background-color: var(--border-clr);
+        border-radius: .2rem;
+    }
+   .profile{
+        flex-direction: column;
+        cursor: pointer;
+        
+   }
+   
+   .none{
+    display: none;
+   }
+   .block{
+    display: block;
+   }
+   .column{
+    flex-direction: column;
+    gap: .8rem;
+   }
+   .lists{
+    position: absolute;
+    top: 12vh;
+    left: 3vw;
+    
+    color: black;
+    cursor: pointer;
+   }
+   .lists li{
+    padding: .6rem;
+   }
+   .lists li:hover{
+    background-color: var(--border-clr);
+    padding: .6rem;
+    border-radius: .3rem;
+   }
+  
+}
+
+
+@media  screen and (max-width: 800px) {
+    .pr-active{
+        display: none;
+    }
+    .form{
+        margin: 5%;
+        
+    }
+    .title{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
 }
