@@ -215,7 +215,8 @@ input{
    .lists li:hover{
     background-color: var(--border-clr);
     padding: .6rem;
-    border-radius: .3rem;
+    border-radius: .2rem;
+    background-color: white;
    }
   
 }
